@@ -21,7 +21,7 @@ const Contact = mongoose.model('Contact', ContactSchema);
 
 // defining App vairable
 const app = express();
-const port = 80 ;//defining port
+const port = 3000 ;//defining port
 
 // Express specific stuff
 app.use(express.static("static"));
