@@ -1,0 +1,54 @@
+//- HOME
+extends base.pug
+
+//- writing script block
+block scripts 
+    script
+        include ../static/index.js
+
+//- writing block Style
+block style 
+    style 
+        include ../static/style.css
+    link(rel='stylesheet'  href='../static/resp.css')
+
+//- writing body block
+block content 
+    body 
+        section#introsection 
+            div.heading Welcome to Dance Academy 
+            div.subheading We believe Any Body Can Dance
+        
+        section#missionsection 
+            h3 Our Mission
+            div.card 
+                h4 Dance Perfection
+                div.card-box 
+                    div.card-img 
+                        img(src="/static/img/Dance1.png")
+                    div.card-content 
+                        p We believe in perfection. Perfection is key to success and pratice is key to perfection
+            div.card 
+                h4 Dance the way you like
+                div.card-box 
+                    div.card-img 
+                        img(src="/static/img/dance2.png")
+                    div.card-content 
+                        p Free style is teh best style. Dance to your hearts content.
+            div.card 
+                h4 Expert Teaching
+                div.card-box 
+                    div.card-img 
+                        img(src="/static/img/dance3.png")
+                    div.card-content 
+                        p Teaching is what we do we don't only teach dance we teach a way of life.
+        
+        section#sponsorsection 
+            h3 Our Sponsors
+            div#sponsors 
+                img(src="/static/img/logo1.png", alt="Sponssor image",class="spimage")
+                img(src="/static/img/logo2.png", alt="Sponssor image",class="spimage")
+                img(src="/static/img/logo3.png", alt="Sponssor image",class="spimage")
+                img(src="/static/img/logo4.png", alt="Sponssor image",class="spimage")
+                img(src="/static/img/logo5.png", alt="Sponssor image",class="spimage")
+    

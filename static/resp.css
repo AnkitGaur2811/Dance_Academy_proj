@@ -1,0 +1,33 @@
+
+@media (max-width:1500px){
+    /* Navbar */
+#navbar{
+    height: auto;
+}
+#navbar ul{
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+}
+#introsection{
+    font-size:2.55rem;
+    flex-wrap: wrap;
+}
+#introsection div.subheading{
+    font-size:1.05rem;
+    text-shadow: 3px 1px 3px rgb(245, 6, 6);
+}
+#missionsection{
+    height:auto;
+}
+.card{
+    display:flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    margin-bottom: 0;
+    padding:1.1rem;
+}
+#sponsorsection{
+    overflow:hidden;
+}
+}

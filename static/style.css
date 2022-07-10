@@ -1,0 +1,153 @@
+/* importing font family */
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital@1&display=swap');
+/* CSS reset */
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+/* Navbar  */
+#navbar{
+    height: 3rem;
+    background-color: rgb(0, 0, 0);
+    padding: 0.9rem;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content:center; */
+    align-items: center;
+}
+#logo{
+    display: flex;
+    color: white;
+    align-items:center;
+    margin: 0 ;
+    margin-right: 1rem;
+    font-size: 1.09rem;
+    font-family: 'Edu TAS Beginner', cursive;
+}
+#logo img{
+    height: 1.8rem;
+    width: 2.4rem;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar li{
+    list-style: none;
+}
+
+#navbar li a{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    font-size: 1.09rem;
+    font-family: 'Edu TAS Beginner', cursive;
+    font-weight:bold;
+    color: white;
+    margin: 0 0.1rem;
+}
+#navbar li a:hover{
+    color: black;
+    background-color: rgb(215, 211, 211);
+    border-color:black;
+    border-radius: 10px;
+
+}
+
+/* intro Section */
+#introsection{
+    height: 30rem;
+    background: center/cover no-repeat url("static/intro_section.jpg");
+    background-color: rgb(31, 29, 29);
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size:5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(8, 8, 8);
+    text-shadow: 3px 1px rgb(101, 100, 100);
+}
+#introsection div.subheading{
+    font-size:2.5rem;
+    text-shadow: 3px 1px 3px rgb(245, 6, 6);
+}
+/* Misson Section */
+#missionsection{
+    height:44rem;
+    background-color: rgb(205, 144, 144);
+    margin:auto;
+}
+#missionsection h3{
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: 'Edu SA Beginner', cursive;
+    text-shadow: 2px 1px 6px darkviolet;
+    padding-top: 1.3rem;
+}
+.card{
+    border: 3px solid black;
+    border-radius: 15px;
+    display:inline-block;
+    width: 28%;
+    height: 33rem;
+    margin: 1rem 2.5rem;
+    padding:1.1rem;
+    background-color:rgb(142, 105, 134)
+}
+.card h4{
+    text-align: center;
+    font-size:1.8rem;
+    font-family: 'Edu TAS Beginner', cursive;
+    margin: 0.3rem 0.3rem;
+
+}
+.card-box{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    font-family: 'Asap', sans-serif;
+    font-size:large;
+}
+.card-img img{
+    height:22rem;
+    width:auto;
+}
+
+/* Sponsor Section */
+#sponsorsection{
+    height:20rem;
+    background-color: rgb(96, 69, 69)
+}
+#sponsorsection h3{
+    text-align: center;
+    font-size: 2.2rem;
+    font-family: 'Edu SA Beginner', cursive;
+    text-shadow: 2px 1px 6px rgb(148, 162, 224);
+    padding-top: 1.3rem;
+
+}
+#sponsors{
+    height:4rem;
+    display: flex;
+    justify-content:center;
+}
+#sponsors img{
+    height:13rem;
+    padding:0.8rem;
+}
+
+/* Footer */
+#footer {
+    height:2rem;
+    background-color: black;
+    color:white;
+    display: flex;
+    justify-content: center;
+}

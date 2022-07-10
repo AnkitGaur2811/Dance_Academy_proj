@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital@1&display=swap');
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+/* Full page */
+#contact{
+    height: 40rem;
+    background-color: rgb(80, 127, 68);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+#contact h1{
+    text-align: center;
+    padding: 1rem 1rem;
+    font-family: 'Raleway', sans-serif;
+    font-size:3rem;
+    text-shadow: 3px 1px 3px rgb(54, 245, 6);
+}
+/* Form */
+#contact .myform{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.myinput{
+    width:45rem;
+    margin: 1rem 2rem;
+    padding: 0.5rem;
+    border: 3px solid black;
+    color: black;
+    border-radius: 10px;
+    font-size: 1rem;
+    outline: none;
+}
+/* Submit btn */
+.btn{
+    margin: 1rem 2rem;
+    padding: 1rem;
+    border: 3px solid black;
+    color: white;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: black;
+    cursor: pointer;
+}
+.btn:hover{
+    border: 3px solid black;
+    color: black;
+    border-radius: 10px;
+    font-size: 1rem;
+    background-color: rgb(109, 107, 107);
+    cursor: pointer;
+}
+    
