@@ -7,7 +7,7 @@ const mongoose = require('mongoose');
 main().catch(err => console.log(err));
 
 async function main() {
-  await mongoose.connect('mongodb://localhost:27017/ContactDance');
+  await mongoose.connect('mongodb://localhost:27017/ContactDance', {useUnifiedTopology: true});
 }
 // define mongoose schema
 const ContactSchema = new mongoose.Schema({
