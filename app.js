@@ -33,7 +33,7 @@ app.set("view engine", "pug"); //set teplate engine to pug
 app.set("views", path.join(__dirname,"views"));//set the views directory
 
 // END points
-app.get("/", (req,res)=>{
+app.get("/", (_,res)=>{
     const params={};
     res.status(200).render('../views/home.pug',params);
 });
