@@ -1,7 +1,6 @@
 // All the Libraries putted here
 const express = require("express");
 const path = require("path");
-const bodyParser = require("body-parser");
 const mongoose = require('mongoose');
 // Mono specific stuff
 main().catch(err => console.log(err));
