@@ -7,7 +7,7 @@ const mongoose = require('mongoose');
 main().catch(err => console.log(err));
 
 async function main() {
-  await mongoose.connect('mongodb+srv://ankit:ankit123@cluster0.nzgafbk.mongodb.net/?retryWrites=true&w=majority', {useUnifiedTopology: truex``});
+  await mongoose.connect('mongodb+srv://ankit:ankit123@cluster0.nzgafbk.mongodb.net/?retryWrites=true&w=majority', {useUnifiedTopology: true});
 }
 // define mongoose schema
 const ContactSchema = new mongoose.Schema({
