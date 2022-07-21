@@ -26,7 +26,7 @@ const port = 3000 ;//defining port
 // Express specific stuff
 app.use(express.static("static"));
 app.use("/static", express.static("static"));//for serving stqatic files
-app.use(express.urlencoded());
+app.use(express.urlencoded({extended: true}));
 
 // Pug specific stuff
 app.set("view engine", "pug"); //set teplate engine to pug
